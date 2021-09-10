@@ -30,4 +30,15 @@ I am 23 years old, I work as a teacher of English. I think that my actual job co
     	printf("Некорректный ввод\n");
 	    }
 	getch();
-    }   
+    } 
+
+  # Education
+  * Bachelor, Francisk Skorina Gomel State University
+     * Faculty of Foreign Languages 
+# Experience
+* I have been working as a teacher of English for 2 years.
+# Languages 
+* Russian
+* English
+# English
+ * EPAM English test result: B2.
