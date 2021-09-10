@@ -1,1 +1,0 @@
-https://ksukxella.github.io/rsschool-cv/cv
