@@ -1,4 +1,5 @@
 # Ksenya Radionova
+
 # My Contact Info
 * Phone: +375 33 347-20-68
 * Email: ksyu.radionova.18@mail.ru
@@ -32,7 +33,7 @@ I am 23 years old, I work as a teacher of English. I think that my actual job co
 	getch();
     } 
 
-  # Education
+# Education
   * Bachelor, Francisk Skorina Gomel State University
      * Faculty of Foreign Languages 
 # Experience
