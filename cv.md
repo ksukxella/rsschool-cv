@@ -1,4 +1,4 @@
-
+![Photo](/ks.jpg)
 # Ksenya Radionova
 
 ## My Contact Info
