@@ -1,0 +1,122 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  list-style:none;
+  font-family: 'Nunito', sans-serif;
+}
+body{
+  background: rgb(193, 157, 223);
+}
+.main-content{
+  min-height:100vh;
+  width:80%;
+  margin: 2rem auto;
+  display:grid;
+  grid-template-columns:repeat(7,1fr);
+}
+.left-section{
+  grid-column: span 2;
+  height:100%;
+  background:orangered;
+}
+.right-section{
+  background:white;
+  height:100%;
+  grid-column: span 5;
+}
+.left-content{
+  padding:1rem 1rem;
+
+}
+.profile{
+  width:100%;
+  
+}
+.profile img{
+  width:100%;
+  border-radius:50%;
+  border:8px solid white;
+
+}
+.name{
+  font-size:2rem;
+ text-align:center;
+ text-transform:uppercase;
+ padding:1.2rem 0;
+ letter-spacing:1px;
+ border-bottom:1px solid white;
+}
+.career{
+  font-size:1.2rem;
+ text-align:center;
+ text-transform:uppercase;
+ padding:1.2rem 0;
+ letter-spacing:1px;
+}
+.main-title{
+  font-size:1.2rem;
+  text-transform:uppercase;
+  letter-spacing:1px;
+}
+.contact-info ul{
+  padding:1rem 0;
+}
+.contact-info ul li{
+  padding:0.5rem 0;
+  display:flex;
+  font-size:1rem;
+  align-items: center;
+}
+.contact-info ul li i{
+  padding-right:0.5rem;
+  display:flex;
+  font-size:1rem;
+  color:white;
+}
+.skill-title{
+  text-transform:uppercase;
+  font-size:1rem;
+  padding:0.5rem 0;
+}
+.skill-section{
+  display:flex;
+}
+.right-main-content{
+  padding:2rem 3rem;
+}
+.right-title{
+  letter-spacing:1px;
+  text-transform:uppercase;
+  margin-bottom:1.2rem;
+  position:relative;
+}
+.para{
+  line-height:1.5rem;
+  font-size:1.2rem;
+}
+.right-title::after{
+  content:"";
+  position:absolute;
+  width:60%;
+  height:.2rem;
+  background:black;
+  right:0;
+  transform:translateY(-50%);
+  top:50%;
+  border-radius: 10px;
+}
+.about{
+  padding-bottom:2rem;
+}
+.expersect{
+  margin-bottom:1.2rem;
+}
+.exper-title{
+  text-transform:uppercase;
+  font-size:1rem;
+  padding:0.5rem 0;
+}
+.lang{
+  margin-bottom:1.2rem;
+}
