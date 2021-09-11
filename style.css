@@ -6,7 +6,7 @@
   font-family: 'Nunito', sans-serif;
 }
 body{
-  background: rgb(193, 157, 223);
+  background: rgb(226, 202, 245);
 }
 .main-content{
   min-height:100vh;
@@ -18,7 +18,7 @@ body{
 .left-section{
   grid-column: span 2;
   height:100%;
-  background:orangered;
+  background:rgb(255, 0, 234);
 }
 .right-section{
   background:white;
@@ -30,17 +30,15 @@ body{
 
 }
 .profile{
-  width:100%;
-  
+  width:100%; 
 }
 .profile img{
   width:100%;
   border-radius:50%;
-  border:8px solid white;
-
+  
 }
 .name{
-  font-size:2rem;
+ font-size:2rem;
  text-align:center;
  text-transform:uppercase;
  padding:1.2rem 0;
@@ -48,7 +46,7 @@ body{
  border-bottom:1px solid white;
 }
 .career{
-  font-size:1.2rem;
+ font-size:1.2rem;
  text-align:center;
  text-transform:uppercase;
  padding:1.2rem 0;
@@ -75,12 +73,13 @@ body{
   color:white;
 }
 .skill-title{
-  text-transform:uppercase;
-  font-size:1rem;
+  text-transform:initial;
+  font-size:1.3rem;
   padding:0.5rem 0;
 }
 .skill-section{
   display:flex;
+  
 }
 .right-main-content{
   padding:2rem 3rem;
@@ -90,21 +89,26 @@ body{
   text-transform:uppercase;
   margin-bottom:1.2rem;
   position:relative;
+  color:lightblue;
 }
 .para{
   line-height:1.5rem;
-  font-size:1.2rem;
+  font-size:1.3rem;
+  text-transform:initial;
+  text-align:justify;
+  
 }
 .right-title::after{
   content:"";
   position:absolute;
   width:60%;
   height:.2rem;
-  background:black;
+  background:lightblue;
   right:0;
   transform:translateY(-50%);
   top:50%;
   border-radius: 10px;
+ 
 }
 .about{
   padding-bottom:2rem;
