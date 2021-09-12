@@ -70,7 +70,7 @@ body{
   padding-right:0.5rem;
   display:flex;
   font-size:1rem;
-  color:white;
+
 }
 .skill-title{
   text-transform:initial;
@@ -123,4 +123,19 @@ body{
 }
 .lang{
   margin-bottom:1.2rem;
+}
+.style_f{
+  height:100px;
+  background:lightsalmon;
+  width:700%;
+  padding-top:20px;
+  
+}
+.year{
+  padding-top:10px;
+  padding-left:20px;
+}
+.pic{
+  padding-left:20px;
+
 }
