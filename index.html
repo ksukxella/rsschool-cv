@@ -1,99 +1,135 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rsschool-cv-html</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CV</title>
+  <link href="./style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</head>
+
 <body>
-  <main class="main-content">
-    <section class="left-section">
-      <div class="left-content">
-      <div class="profile">
-        <img src="ks1.jpg">
-        <h2 class="name">Ksenya Radionova</h2>
-        <p class="career">Software Engineer</p>
-        <div class="contact-info">
-          <h3 class="main-title">Contact Info</h3>
+  <div class="main-container">
+    <header class="head">
+      <div class="header-menu">
+        <nav class="header-nav">
           <ul>
-            <li>
-              <i class="fa fa-phone"></i>
-              +375333472068
-            </li>
-            <li>
-              <i class="fa fa-globe"></i>
-              ksyu.radionova.18@mail.ru
-            </li>
-            <li>
-              <i class="fa fa-facebook"></i>
-               www.facebook.com
-            </li>
-            <li>
-              <i class="fa fa-github"></i>
-               https://github.com/ksukxella
-            </li>
-            <li>
-              <i class="fa fa-telegram"></i>
-              https://github.com/ksukxella
-            </li>
-            <li>
-              <i class="fa fa-map-marker"></i>
-              Gomel
-            </li>
+            <li><a href="#info">CONTACT</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#english">english</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="info" class="info">
+        <div>
+          <div class="star">
+            <div class="photo"></div>
+          </div>
+          <div class="contact">
+            <h1>CONTACT</h1>
+            <ul>
+              <li><a href="https://yandex.by/maps/155/gomel/?l=stv%2Csta&ll=31.014272%2C52.424160&z=10">Address</a></li>
+              <li><i></i><a href="https://e.mail.ru/inbox/?from=splash">Email:ksyu.radionova.18@mail.ru</a></li>
+              <li>Phone:+375333472068</li>
+              <li><a href="https://github.com/ksukxella">GitHub</a></li>
+            </ul>
             
           </div>
-          </ul>
         </div>
-      </div>
-    </section>
-    <section class="right-section">
-      <div class="right-main-content">
-        <section class="about">
-      <h2 class="right-title">ABOUT ME</h2>
-      <p class="para">
-        I am 23 years old, I work as a teacher of English. I think that my actual job could be a good addition to the job of front-end developer. I really adore activities which I can develop during my life. That is why I`m here. My goal is to gain knowledge in the field of front-end development.
-      </p>
-    </section>
-      <section class="expersect">
-      <h2 class="right-title">EXPERIENCE</h2>
-      <ul>
-        <li class="exper-title">Bachelor,Francisk Skorina State University</li>
-        <li class="exper-title">The Faculty of Foreign Languages</li>
-      
+      </section>
+      <section id="about" class="about">
+        <h2>About myself</h2>
+        <p> I am 23 years old, I work as a teacher of English. I think that my actual job could be a good addition to the job of front-end developer. I really adore activities which I can develop during my life. That is why I`m here. My goal is to gain knowledge in the field of front-end development.I consider myself an ideal candidate for this work. Since I have a great desire to obtain new knowledge and the ability to quickly assimilate them, a certain amount of knowledge behind my back, I know for sure who I want to be and what I want. </p>
+     
         
-      </ul>
-    </section>
-    <section class="skillssect">
-      <h2 class="right-title">SKILLS</h2>
-      <ul>
-        <li class="skill-title">The basics of HTML</li>
-        <li class="skill-title">The basics of CSS</li>
-        <li class="skill-title">The basics of C</li>
-        
-      </ul>
-      
-    </section>
-    <section class="lang">
-      <h2 class="right-title">LANGUAGES</h2>
-      <ul>
-        <li class="skill-title">English-B2 </li>
-        <li class="skill-title">Russian-native</li>
-        
-      </ul>
-      
-    </section>
-    
-    </section>
+      </section>
+      <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML and CSS</li>
+          <li>The basics of C</li>
+        </ul>
+      </section>
+      <section id="code" class="code">
+        <h2>Code</h2>
+        <pre><code class="html">
+          setlocale(LC_ALL, "rus");
+          int arr[7]={4,-8,0,45,-2,4,12};
+          printf("Второй эелемент массива:%d\n",arr[1]);
+          arr[3]=arr[0]+arr[6];
+          printf("Четвёртый эелемент массива: %d\n",arr[3]);
+          int i;
+          printf("Вывод массива\n");
+          for(i=0; i<7; i++)
+          {
+            printf("arr[%d]=%d\n",i,arr[i]);
+          }
+          getch();
+          }
+          
+       </code></pre>
 
-  </main>
-  
+      </section>
+      <section id="education" class="education">
+        <h2>Education</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Educational institution</th>
+              <th>GSU, Gomel, Belarus</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Faculty</td>
+              <td>Faculty of Foreign languages</td>
+            </tr>
+            
+            <tr>
+              <td>Education Information</td>
+              <td>Higher education</td>
+            </tr>
+            <tr>
+              <td>Year of entry</td>
+              <td>2015</td>
+            </tr>
+            <tr>
+              <td>Year of ending</td>
+              <td>2019</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="english" class="english">
+        <h2>English level</h2>
+        <p>B2</p>
+        
+      </section>
+    </main>
+    <footer>
+      <div class="data-info">
+        <ul>
+          
+          
+            <a href="https://rs.school/"><img src="logo.svg" alt="rs school logo" class="pic"  width="73" height="26"></a>
+    <b><p class="year">2021</p></b>
+          </li>
+         
+        </ul>
+      </div>
+    </footer>
+  </div>
 </body>
 
 </html>
